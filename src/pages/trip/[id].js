@@ -40,18 +40,18 @@ const Trip = () => {
         setShowDeleteMessage(false);
         router.push("/");
       }, 6000);
-      // Perform any necessary actions after deleting the trip
+      
     } catch (error) {
       console.error("Error deleting trip:", error);
-      // Handle error scenarios
+      
     }
   };
 
   useEffect(() => {
     if (showDeleteMessage) {
-      document.body.style.overflow = "hidden"; // Disable scrolling when showMessage is true
+      document.body.style.overflow = "hidden"; 
     } else {
-      document.body.style.overflow = "auto"; // Enable scrolling when showMessage is false
+      document.body.style.overflow = "auto"; 
     }
   }, [showDeleteMessage]);
 

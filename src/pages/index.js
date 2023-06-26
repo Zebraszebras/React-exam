@@ -11,7 +11,7 @@ const MainPage = ({ trips }) => {
   if (trips.length === 0) {
     return <div>
       <Navbar />
-      <div>No trips available.</div>
+      <div> <h2>No trips available.</h2></div>
       </div>
   }
 
@@ -23,7 +23,7 @@ const MainPage = ({ trips }) => {
           <div key={trip.id}>
             <TripCard
               id={trip.id}
-              destination={trip.destination} // Update the prop name to 'destination'
+              destination={trip.destination} 
               imageUrl={trip.imageUrl}
               date={trip.date}
               duration={trip.duration}
@@ -54,7 +54,7 @@ export async function getServerSideProps(ctx) {
     return { props: { trips } };
   } catch (err) {
     console.log(err);
-    return { props: { trips: [] } }; // Return an empty array in case of an error
+    return { props: { trips: [] } }; 
   }
 }
 

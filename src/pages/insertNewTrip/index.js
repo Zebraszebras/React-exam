@@ -35,9 +35,9 @@ const InsertNewTripPage = () => {
 
   useEffect(() => {
     if (showMessage) {
-      document.body.style.overflow = "hidden"; // Disable scrolling when showMessage is true
+      document.body.style.overflow = "hidden"; 
     } else {
-      document.body.style.overflow = "auto"; // Enable scrolling when showMessage is false
+      document.body.style.overflow = "auto"; 
     }
   }, [showMessage]);
 
