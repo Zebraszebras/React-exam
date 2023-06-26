@@ -2,7 +2,7 @@
 
 # Travel App
 
-The Travel App is a web application that allows users to manage and view their travel trips. It provides features for creating new trips, viewing trip details, and deleting trips.
+The Travel App is a web application that allows users to view, add, delete travel trips. 
 
 ## Technologies Used
 
@@ -20,11 +20,6 @@ To get started with the Travel App, follow these steps:
 3. Start the development server: `npm run dev`
 4. Open the app in your browser at `http://localhost:3000`
 
-## Usage
-
-- Create a new trip by filling in the destination, duration, date, and image URL in the "Insert New Trip" form and clicking the "Insert New Trip" button.
-- View the details of a trip by clicking on the trip card on the home page.
-- Delete a trip by clicking the "Delete this Trip" button on the trip details page.
 
 ## API Integration
 
@@ -35,8 +30,5 @@ The Travel App integrates with a mock API for storing and retrieving trip data. 
 - `POST /trips`: Creates a new trip.
 - `DELETE /trips/{id}`: Deletes a trip by its ID.
 
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 
