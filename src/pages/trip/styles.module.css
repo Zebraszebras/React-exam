@@ -1,0 +1,74 @@
+.pageWrapper{
+padding-left: 20px;
+padding-right: 30px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.image{
+width: 100%;
+height: 300px;
+object-fit: cover;
+border-radius: 5px;
+border: 2px solid rgb(111, 111, 124);
+box-sizing: border-box;
+}
+.contentWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.destination{
+    color: rgb(0, 29, 91);
+   
+}
+.tripInfo{
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 29, 91);
+}
+
+.deleteButton{
+    background-color: rgb(36, 36, 182);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.deleteButton:hover{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.messageOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(193, 121, 123, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .deleteMessageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #e0edf5;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .deleteMessageContainer img {
+    width: 800px;
+    height: 500px;
+    margin-bottom: 10px;
+  }
+  

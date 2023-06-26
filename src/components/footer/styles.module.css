@@ -1,0 +1,30 @@
+.footer{
+height: 80px;
+width: 100%;
+background-color: rgb(166, 243, 193);
+margin-top: 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 20px;
+padding-right: 20px;
+box-sizing: border-box;
+}
+.footer ul{
+display: flex;
+list-style-type: none;
+gap: 15px;
+}
+.footer ul li a{
+    color: rgb(8, 35, 59);
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer ul li a:hover{
+    color: rgb(77, 93, 107);
+    font-weight: bold;
+}
+.logo{
+    height: 70px;
+    border-radius: 10px;
+}
